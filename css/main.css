@@ -240,7 +240,7 @@ position: relative;
 .content .row img {
 max-width: 100%;
 height: auto;
-  object-fit: contain;
+  object-fit: cover;
   overflow: hidden;
   align-content: center;
   padding-bottom: 10px;
@@ -248,6 +248,7 @@ height: auto;
 
 .content .row video {
   width: 60%;
+  object-fit: contain;
     align-content: center;
     justify-content: center;
 
