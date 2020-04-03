@@ -35,6 +35,14 @@ h3 {
     /* text-transform: uppercase; */
     }
 
+    h5 {
+      font-family:'Open Sans', sans-serif;
+      font-size: 10px;
+      font-weight: 300;
+      font-style: italic;
+      text-align: right;
+    }
+
 p{
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -127,15 +135,7 @@ margin-right: 5%;
 flex-wrap: wrap;
 }
 
-.container img {
-  width: 100%;
-  object-fit: cover;
-  height: 300px;
-  margin-top: 30px;
- 
 
-
-}
 
 a .overlay {
   position: absolute;
@@ -237,21 +237,26 @@ position: relative;
     text-align: center;
 }
 
-.content .row img {
+/* .content .row img {
 max-width: 100%;
 height: auto;
   object-fit: cover;
   overflow: hidden;
   align-content: center;
   padding-bottom: 10px;
-}
+} */
 
 .content .row video {
-  width: 60%;
+  width: 100%;
   object-fit: contain;
     align-content: center;
     justify-content: center;
 
+  }
+
+  .content .row img {
+    width: 100%;
+    
   }
 
   .col-md-6 {
@@ -270,6 +275,7 @@ video {
     left: 0;
     right: 0;
     margin: auto;
+  
 }
 
 .caption {
@@ -344,20 +350,20 @@ a:hover .fa-linkedin-in{
     .content .row img {
       padding-top: 10px;
       justify-content: center;
-      max-width: 100%;
-      height: auto;
+      /* max-width: 100%; */
+      /* height: auto; */
     }
     nav {
    margin-bottom: 50px;
     }
 
-    .content .row video {
+    /* .content .row video {
       width: 60%;
-    }
+    } */
 
-    .content .row #videoscreen {
+    /* .content .row #videoscreen {
       width: 100%;
-    }
+    } */
     .content {
       margin-top: 100px;
 
@@ -372,16 +378,17 @@ a:hover .fa-linkedin-in{
   margin-right: 5%;
   }
 
-  #aboutme img {
+  /* #aboutme img {
     max-width: 250px;
     margin-left: -50px;
-  }
-
+  } */
+/* 
   #videoscreen {
-    width: 200%;
-    position: relative;
-    left: -150px;
-  }
+    width: 100%;
+    object-fit: scale-down;
+    object-fit: fill;
+  
+  } */
 
   .layeredpics {
     margin-bottom: 0px;
@@ -415,24 +422,21 @@ a:hover .fa-linkedin-in{
 }
 
 
-  .projectpage .row #aboutme img{
+  /* .projectpage .row #aboutme img{
     max-width: 20px;
         height: auto;
         display: none;
-      }
+      } */
 
  
 
-        /* .projectpage .row #videoscreen {
-          position: absolute;
-          width: 150%;
-        } */
 
-        #videoscreen {
-          width: 150%;
+
+        /* #videoscreen {
+          width: 100%;
           position: relative;
-          left: -150px;
-        }
+          /* left: -150px; */
+        } */
       
 }
 
@@ -452,11 +456,11 @@ a:hover .fa-linkedin-in{
   }
 
 
-  #videoscreen {
-    width: 150%;
-    position: relative;
-    left: -150px;
-  }
+  /* #videoscreen {
+    width: 100%;
+    /* position: relative; */
+    /* left: -150px; */
+  
 
 
-}}
+}
