@@ -374,8 +374,11 @@ a:hover .fa-linkedin-in{
     } */
     .content {
       margin-top: 100px;
+    }
 
-  
+      .video-container {
+        display: none;
+      }  
 
 
   }
@@ -469,5 +472,5 @@ a:hover .fa-linkedin-in{
     /* position: relative; */
     /* left: -150px; */
   
-  }
+  
 }
